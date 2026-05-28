@@ -1,3 +1,4 @@
+//Program to find the sum of N natural numbers
 #include<stdio.h>
 int main()
 {
