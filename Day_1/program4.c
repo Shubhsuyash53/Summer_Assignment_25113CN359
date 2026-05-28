@@ -1,4 +1,4 @@
-//Program to count digits of a number
+//Program to count digits of a number.
 #include<stdio.h>
 int main()
 {
