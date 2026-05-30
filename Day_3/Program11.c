@@ -1,4 +1,4 @@
-//GCD of two nos.
+//program to find GCD of two nos.
 #include<stdio.h>
 int gcd (int a, int b)
 {
