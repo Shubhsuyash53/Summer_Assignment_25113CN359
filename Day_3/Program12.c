@@ -1,4 +1,4 @@
-//Program to find LCM of two nos.
+//Program to find LCM of two nos
 #include<stdio.h>
 int main()
 {
