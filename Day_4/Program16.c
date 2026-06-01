@@ -1,4 +1,4 @@
-//Program to print armstrong numbers in a range
+//Program to print armstrong numbers in a range.
 #include<stdio.h>
 #include<math.h>
 int main()
