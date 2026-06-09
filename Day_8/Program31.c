@@ -1,4 +1,4 @@
-//Pattern
+//Alphabet pyramid
 #include<stdio.h>
 int main()
 {
