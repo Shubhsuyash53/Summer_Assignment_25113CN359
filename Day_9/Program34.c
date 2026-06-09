@@ -1,4 +1,4 @@
-//Inverted pattern
+//Inverted number pyramid
 #include<stdio.h>
 int main()
 {
