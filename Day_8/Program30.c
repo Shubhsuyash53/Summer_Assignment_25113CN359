@@ -1,3 +1,4 @@
+//Number pyramid
 #include<stdio.h>
 int main()
 {
