@@ -1,4 +1,4 @@
-//Program to write a function for perfect number
+//Program to write a function for perfect number.
 #include<stdio.h>
 int perfect(int n);
 int main()
