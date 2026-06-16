@@ -24,3 +24,5 @@ int main()
         printf("%d is found at position %d",key,i+1);
     else
         printf("%d is not found in the array",key);
+    return 0;
+}
