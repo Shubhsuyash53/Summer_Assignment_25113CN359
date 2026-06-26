@@ -1,0 +1,35 @@
+//Programs to sort words by length
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char words[20][20], temp[20];
+    int i, j, n;
+
+    printf("Enter the number of words: ");
+    scanf("%d", &n);
+
+    printf("Enter the words: ");
+    for(i=0; i<n; i++)
+        scanf("%s", words[i]);
+
+    for(i=0; i<n-1; i++)
+    {
+        for(j=i+1; j<n; j++)
+        {
+            if(strlen(words[i]) > strlen(words[j]))
+            {
+                strcpy(temp, words[i]);
+                strcpy(words[i], words[j]);
+                strcpy(words[j], temp);
+            }
+        }
+    }
+
+    printf("Words in order of length are: ");
+    for(i=0; i<n; i++)
+        printf("%s ", words[i]);
+
+    return 0;
+}
